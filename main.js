@@ -18,7 +18,7 @@ const randomGenerator = () =>{
 //Result
 const randomNames = () =>{
     output.innerHTML = randomGenerator();
-    genBtn.innerHTML = 'Generated';
+    genBtn.innerHTML = 'Generated new';
 }
 
 genBtn.addEventListener('click', randomNames);
